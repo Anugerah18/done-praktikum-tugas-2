@@ -1,0 +1,36 @@
+body{
+    background-image: url("a1.png");
+    background-size: cover;
+    background-color: black;
+}
+.text-white {
+    color: white;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0%;
+}
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+color: white;
+}
+
+td {
+border: 1px solid white;
+text-align: left;
+padding: 8px;
+}
+tr{
+
+}
+tr:nth-child(even) {
+background-color: rgba(0, 0,0,0.1);
+}
